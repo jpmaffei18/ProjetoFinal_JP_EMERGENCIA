@@ -1,0 +1,28 @@
+<app-header [pageTitle]="pageTitle"></app-header>
+
+
+<ion-content [fullscreen]="true" color="success" mode="ios" class="ionct">
+  <div class="lg">
+    <img src="https://i.imgur.com/t6QBDUo.png" class="imge">
+  </div>
+  <div class="container">
+    <svg class="svgg" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+      <path id="wave" d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill: #FBFFF1;"></path>
+    </svg>
+  </div>
+
+  <div class="texto">
+    <p class="rec">Recupere a sua senha informando o seu e-mail cadastrado</p>
+  </div>
+  <ion-item class="caixa" color="success">
+    <ion-input label="email" label-placement="floating" fill="solid" class="email" placeholder="chama@gmail.com"
+      type="email"></ion-input>
+    <ion-icon name="mail-outline" slot="start"></ion-icon>
+  </ion-item>
+
+  <ion-button id="present-alert" class="envi" color="light">Enviar</ion-button>
+
+  <ion-alert trigger="present-alert" header="Atenção"
+    message="Instruções e links para redefinir sua senha foi enviado para o seu email."
+    [buttons]="alertButtons"></ion-alert>
+</ion-content>

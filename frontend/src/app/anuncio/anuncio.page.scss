@@ -1,0 +1,241 @@
+.avatar {
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+ion-item{ 
+    margin-bottom: 1vh;
+     position: relative;
+      top: 2vh;
+}
+ion-avatar {
+    margin: 0 auto;
+}
+
+.h1{
+margin-top: 25%;
+display: block;
+text-align: center;
+
+}
+.ft{
+    height: 235px; 
+    background-color: #FBFFF1; 
+    margin-top: -20px;
+}
+
+.foto{
+    width: 125px; 
+    height: 125px;
+}
+
+
+.carregar {
+    margin: auto;
+    display: block;
+}
+
+#caixa {
+    width: 90vw;
+    height: 80px;
+    resize: none;
+    background-color: #734458;
+    border: 0.1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.centro{
+    margin-top: -15%;
+}
+
+.oii {
+    text-align: center;
+    margin-top: 35vh;
+    width: 100%;
+}
+
+.oii ion-textarea {
+    width: 80%;
+
+    height: 10px;
+}
+
+
+.cxinput p{
+    margin-top: -20%;
+     text-align: left;
+     font-size: 20px;
+}
+
+.cxinput{
+    
+    border-radius: 1vh;
+    border: solid;
+    margin-top: -200px;
+    height: 100px;
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: -5vh;
+    left: 0;
+
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+    .avatar {
+        margin: auto;
+        display: block;
+        text-align: center;
+    
+
+    }
+    .ft{
+        height: 450px; 
+        background-color: #FBFFF1;
+    padding-top: 20px;
+    }
+    
+    ion-avatar {
+        margin: 0 auto;
+        
+    }
+
+    .foto{
+        width: 250px; 
+        height: 250px;
+    }
+
+    
+    
+    .carregar {
+        margin: auto;
+        display: block;
+    }
+    
+    #caixa {
+        width: 50vw;
+        height: 80px;
+        resize: none;
+        background-color: #734458;
+        border: 0.1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    ion-button{
+        width: 30%;
+        border: solid 3px black;
+         border-radius: 20px;
+         height: 50px;
+         margin-right: 10px;
+    
+    }
+
+    .h1{
+
+    font-size: 16px;
+    }
+
+   present-alert{ width: 50vw;
+
+   }
+
+    .cxinput p{
+        margin-top: -50px;
+         text-align: left;
+         font-size: 20px;
+    }
+    
+    .custom-textarea {
+        width: 20%;
+        height: 150px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+      
+     
+    }
+    
+    .oii {
+        text-align: center;
+        margin-top: 5vh;
+    }
+    
+   
+    
+    ion-item{
+        margin-bottom: 1vh;
+         position: relative;
+          top: 2vh;
+        width: 40%;
+    }
+    svg {
+        display: none;
+    
+    }
+    
+    .container {
+        display: none;
+    }
+
+.centro{
+  
+   margin-bottom: 300px;
+   margin-top: -22%;
+   
+   width:100%;
+}
+
+.centro ion-item{
+    
+    margin-left:30%;
+}
+
+.centro h1{
+    text-align: center;
+}
+}
+
+.cxdescricao{
+    position: relative;
+   
+}
+
+.containerdescri{
+    width: 90vh;
+
+}
+
+.btnenviar{
+    width: 50vh;
+    position: relative;
+    top: 4vh;
+    margin-bottom: 150px;
+}
+
+.cxinput{
+    margin-left: 30%;
+    position: relative;
+    width: 40vw;
+    border-radius: 1vh;
+    border: solid;
+    margin-top: -200px;
+    height: 100px;
+}
